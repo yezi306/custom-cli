@@ -7,7 +7,8 @@
     "why": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,14 @@
     "husky": "^8.0.3",
     "open": "^9.1.0",
     "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
